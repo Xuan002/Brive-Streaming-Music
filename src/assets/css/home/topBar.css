@@ -1,0 +1,122 @@
+
+
+.cabecalho{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-left: 10%;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  
+    
+}
+
+.topBar-textoLink{
+  position:relative;
+  text-decoration: none;
+  padding: 10px;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.topBar-textoLink:hover{
+  text-decoration-line: underline;
+  content: "";
+  color: #742BD9;
+  transition: all 0.3s;
+}
+
+.search {
+    padding-left: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+  
+  .search__input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #3F3554;
+    border: none;
+    color: #FFFFFF;
+    padding: 0.7rem 1rem;
+    border-radius: 16px;
+    width: 400px;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #742BD9;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #742BD9;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #3F3554;
+    margin-top: .1em;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #FFFFFF;
+  }
+
+  .icons{
+    padding-left: 1rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .cont-noti{
+    padding-left: 1rem;
+  }
+
+
+  .user-cabecalho{
+    padding-left: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .cabecalho-icone{
+    width: 30%;
+    
+  }
+  .cabecalho-nick{
+    margin-left: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }

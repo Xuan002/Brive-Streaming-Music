@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O melhor site de streming de musica">
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/assets/img/login/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/img/login/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/img/login/icon/favicon-16x16.png">
+    <link rel="stylesheet" href="/src/assets/css/player/player.css">
+    <link rel="stylesheet" href="/src/assets/css/home/nav.css">
+    <link rel="stylesheet" href="../css/home/componentesDoMain.css">
+    <link rel="stylesheet" href="../css/home/topBar.css">
+    <link rel="stylesheet" href="../css/home/heart.css">
+    <link rel="stylesheet" href="../css/home/playlist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/home/novidades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Brive</title>
+</head>
+<body>
+    <header>
+        
+        
+        <section class="cabecalho">
+          <div class="topBar-links">
+            <a class="topBar-textoLink" href="">Música</a>
+            <a class="topBar-textoLink" href="">Sobre</a>
+            <a class="topBar-textoLink" href="">Autores</a>
+          </div>
+          <div class="search">
+            <input type="text" class="search__input" placeholder="Buscar...">
+            <button class="search__button">
+                <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+                    <g>
+                        <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                    </g>
+                </svg>
+            </button>
+        </div>
+        <div class="icons">
+          <div class="heart">
+            <input class="intHeart" type="checkbox"  id="favorite" name="favorite-checkbox" value="favorite-button">
+          <label for="favorite" class="lbHeart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          </label>
+          </div>
+          <div class="cont-noti">
+            <svg class="noti" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 7C16 5.4087 15.3679 3.88258 14.2426 2.75736C13.1174 1.63214 11.5913 1 10 1C8.4087 1 6.88258 1.63214 5.75736 2.75736C4.63214 3.88258 4 5.4087 4 7C4 14 1 16 1 16H19C19 16 16 14 16 7Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M11.73 20C11.5542 20.3031 11.3019 20.5547 10.9982 20.7295C10.6946 20.9044 10.3504 20.9965 10 20.9965C9.64964 20.9965 9.30541 20.9044 9.00179 20.7295C8.69818 20.5547 8.44583 20.3031 8.27002 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="16" cy="3" r="3" fill="#742BD9"/>
+              </svg>
+          </div>
+        </div>
+        
+            <div class="user-cabecalho">
+              <img class="cabecalho-icone" src="../img/home/ra 1.png" alt="">
+              <p id="usuario" class="cabecalho-nick">Usuário</p>
+            </div>
+        </section>
+        
+        <section class="bar-principal">
+          <div class="nav-direita-menu">
+              <img class="nav-direita-logo" src="../img/home/logo brive (1).png" alt="">
+              <nav class="nav-direita-menuContainer">
+                  <h3 class="nav-direita-menu-texto">Menu</h3>
+                  <div class="bar-principal-icons">
+                    <img src="../img/home/home.png" alt="">
+                    <img  src="../img/home/navegar.png" alt="">
+                    <img src="../img/home/buscar.png" alt="">
+                  </div>
+                  <a class="nav-direita-menu-link" href="">Descubra</a>
+                  <a class="nav-direita-menu-link" href="">Explorar</a>
+                  <a class="nav-direita-menu-link" href="">Buscar</a>
+              </nav>
+          </div>
+          <div class="nav-direita">
+              <nav class="nav-direita-biblioteca">
+                <div class="bar-principal-icons">
+                  <img src="../img/home/playlist.svg" alt="">
+                  <img src="../img/home/favoritos.svg" alt="">
+                  <img src="../img/home/icons8-clock.svg" alt="">
+                </div>
+                  <h3 class="nav-direita-menu-texto">Biblioteca</h3>
+                  <a class="nav-direita-menu-link" href="">Playlists</a>
+                  <a class="nav-direita-menu-link" href="">Favoritas</a>
+                  <a class="nav-direita-menu-link" href="">Histórico</a>
+              </nav>
+          </div>
+          <div class="nav-direita">
+              <nav class="nav-direita-menu">
+                 
+              </nav>
+          </div>
+          <div class="nav-direita-outros">
+              <nav class="nav-direita-outros">
+                  <h3 class="nav-direita-menu-texto">Outros</h3>
+                  <div class="bar-principal-icons">
+                    <img src="../img/home/config.svg" alt="">
+                    <img  src="../img/home/exit.svg" alt="">
+                  </div>
+                  <a class="nav-direita-menu-link" href="">Configurações</a>
+                  <a class="nav-direita-menu-link" href="/index.html">Logout</a>
+              </nav>
+          </div>
+      </section>
+    </header>
+
+    
+    <main class="componentes_main">
+      
+        <section class="main-novidades">
+            <p class="main-novidades-textPrincipal">NOVIDADES</p>
+            <h2 class="main-novidades-secundario">Sinta A Nostalgia</h2>
+            <h2 class="main-novidades-secundario">Dos Games</h2>
+            <img class="personagem-img" src="../img/home/Group.png" alt="">
+            <img class="indicators" src="../img/home/indicators.png" alt="">
+            <button class="main-novidades-btn" type="submit">Ouça Agora!</button>
+            <a href="" class="main-novidades-texto">Adicionar a biblioteca</a>
+        </section>
+        
+        <section class="main-playlist">
+          <p class="main-playlist-textPrincipal">TOP PLAYLIST GAMES</p>
+          <a href="" class="main-playlist-textSecundario">Mostrar mais</a>
+
+          <div class="main-album">
+            <div class="main-album-msc">
+              <img class="img-playlist" id="img-album" src="/src/assets/img/player/albumbg/hollowknight.jpg" alt="">
+              <p class="nome-msc">Hollow Knight</p>
+            </div>
+            <div class="main-album-msc">
+              <img class="img-playlist" id="img-album" src="/src/assets/img/player/albumbg/undertale.webp" alt="">
+              <p class="nome-msc">Undertale</p>
+            </div>
+            <div class="main-album-msc">
+              <img class="img-playlist" id="img-album" src="/src/assets/img/player/albumbg/berlinist-gris-Cover-Art.webp" alt="">
+              <p class="nome-msc">Gris</p>
+            </div>
+          </div>
+
+          
+        </section>
+        <section class="main-player">
+          <div class="container">
+              <div class="player">
+                <div class="contentWrapper">
+                  <div class="musicSwitch">
+                    <div class="button _prev" id="prev"></div>
+                    <div class="button _next" id="next"></div>
+                  </div>
+                  <div id="jsAlbum">
+                    <div class="album _play">
+                      <div class="album__internal"></div>
+                    </div>
+                  </div>
+                  <div class="musicInfo">
+                    <h1 class="musicInfo__name"></h1>
+                    <h2 class="musicInfo__author"></h2>
+                  </div>
+                  <div class="musicTime">
+                    <p class="musicTime__current">00:00</p>
+                    <p class="musicTime__last">05:01</p>
+                  </div>
+                  <div class="musicBar" id="progress">
+                    <div class="musicBar__length" id="length">
+                      <div class="button musicBar__circle">
+                        <div class="musicBar__circlePoint"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="musicOrder">
+                    <div class="musicOrder__loop _loop" id="loop"></div>
+                    <div class="musicOrder__shuffle" id="shuffle"></div>
+                  </div>
+                  <div class="musicControl">
+                    <div class="button musicControl__backward" id="backward"></div>
+                    <div class="button musicControl__play _play" id="play"></div>
+                    <div class="button musicControl__forward" id="forward"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </main>
+   
+        
+  </section>
+    <script src="/src/assets/js/player.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.textfield{
+    position: relative;
+}
+.textfield .input .error .certo {
+    display: flex;
+    
+    align-items: center;
+}
+.error{
+    opacity: 0%;
+    position: absolute;
+    left: 22.5vw;
+    top: 2.7vw;
+    width: 1.5vw;
+}
+.error1{
+    opacity: 100%;
+    position: absolute;
+    left: 22.5vw;
+    top: 2.7vw;
+    width: 1.5vw;
+    box-shadow: -4px 22px 70px 4px rgba(162, 25, 25, 0.56), 0 0 0  currentColor;
+    animation: tilt-shaking 1s ease infinite;
+    
+}
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+.certo{
+    opacity: 0%;
+    position: absolute;
+    left: 22.5vw;
+    top: 2.5vw;
+    width: 1.5vw;
+}
+.certo1{
+    opacity: 100%;
+    position: absolute;
+    left: 22.5vw;
+    top: 2.8vw;
+    width: 1.5vw;
+}

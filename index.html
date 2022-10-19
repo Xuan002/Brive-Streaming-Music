@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Brive</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/assets/img/login/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/img/login/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/img/login/icon/favicon-16x16.png">
+    <link rel="stylesheet" href="/src/assets/css/login/login.css">
+    <link rel="stylesheet" href="/src/assets/css/login/error.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-login">
+            <h1>Faça login e curta <br>seu momento com Brive</h1>
+            <img src="/src/assets/img/login/img/cat-astronaut-login.svg" alt="gatinho-login">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Entre com a sua conta</h1>
+
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input id="user" type="text" name="usuario" placeholder="Usuário">
+                    <img id="errorUser" class="error" src="/src/assets/img/login/icon/icons8-error-24.png" alt="">
+                    <img id="certoUser" class="certo" src="/src/assets/img/login/icon/icons8-ok.svg" alt="">
+                </div>
+
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input id="pass" type="password" name="usuario" placeholder="Digite sua senha">
+                    <img id="errorPass" class="error" src="/src/assets/img/login/icon/icons8-error-24.png" alt="">
+                    <img id="certoPass" class="certo" src="/src/assets/img/login/icon/icons8-ok.svg" alt="">
+                </div>
+
+                <button class="btn-login" id="btnLogar">Login</button>
+                
+            </div>
+            <div class="cadastro">
+                <p>Não possui uma conta? <a href="/src/assets/routes/cadastro.html">Cadastre-se</a></p>
+            </div>
+        </div>
+    </div>
+        <script src="/src/assets/js/login.js"></script>
+</body>
+</html>
