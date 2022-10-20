@@ -4,25 +4,28 @@ const passUser = document.querySelector("#password")
 const passCuser = document.querySelector("#confirmpassword")
 const btn = document.querySelector(".btn-cadastrar")
 
+let validou = false
 
 const url = "https://brive-back-end.vercel.app/auth/register"
-const newUser = {
-	name: nameUser.value,
-	email: emailUser.value,
-	password: passUser.value,
-	confirmpassword: passCuser.value
-}
+
 
 btn.addEventListener("click", event => {
     event.preventDefault()
 
-    //validInput()
-    addNewUser()
+
+    const newUser = {
+        name: nameUser.value,
+        email: emailUser.value,
+        password: passUser.value,
+        confirmpassword: passCuser.value
+    }
     
-    //window.location.href = './index.html'
+    //validInput()
+    addNewUser(url, newUser)
+    window.location.href = '/index.html'
 })
 
-function addNewUser() {
+function addNewUser(url,newUser) {
     axios.post(url, newUser)
     .then((result) => {
         alert(JSON.stringify(result.data))
@@ -30,3 +33,5 @@ function addNewUser() {
         console.log(error);
     });
 }
+
+

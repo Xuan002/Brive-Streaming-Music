@@ -77,7 +77,7 @@ ____________________________________________________________*/
 ### Album
 ____________________________________________________________*/
 .hollow .album:before {
-  background-image: url(https://raw.githubusercontent.com/Xuan002/Brive-Streaming-Music/desenvolvimento/src/assets/img/player/albumbg/hollowknight.jpg);
+  background-image: url(https://raw.githubusercontent.com/Xuan002/Brive-Streaming-Music/main/src/assets/img/player/albumbg/hollowknight.jpg);
 }
 
 .gris .album:before {

@@ -3,7 +3,7 @@
 	{
 		id: 1,
 		class: 'hollow',
-		url: "https://raw.githubusercontent.com/Xuan002/Brive-Streaming-Music/desenvolvimento/src/assets/music/Hollow%20Knight%20OST%20-%20Hornet.mp3",
+		url: "https://raw.githubusercontent.com/Xuan002/Brive-Streaming-Music/main/src/assets/music/Hollow%20Knight%20OST%20-%20Hornet.mp3",
 		author: "Christopher Larkin",
 		title: "Hornet"
 	},

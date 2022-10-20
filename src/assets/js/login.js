@@ -4,21 +4,33 @@ const intPass = document.querySelector("#pass")
 const errorUser = document.querySelector("#errorUser")
 const errorPass = document.querySelector("#errorPass")
 const certoUser = document.querySelector("#certoUser")
-
+const url = "https://brive-back-end.vercel.app/auth/login"
 
 
 btnLogar.addEventListener("click", event => {
     event.preventDefault()
-
+    const user = {
+        email: intUser.value,
+        password: intPass.value
+    }
     validInput()
     if (intUser.value != "" & intPass.value != "")
     {
-        window.location.href = '/src/assets/routes/home.php'
+        login(url,user)
+        window.location.href = '/src/assets/routes/home.html'
     }
     
 })
 
-
+function login(url,user) {
+    axios.post(url, user)
+    .then((result) => {
+        alert(JSON.stringify(result.data))
+        validou = true
+    }).catch((error) => {
+        console.log(error);
+    });
+}
 
 function validInput()
 {
