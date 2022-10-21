@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #17171A;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.top-bar {
+    background-color: #455A64;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5rem;
+    
+}
+
+.top-bar a {
+    font-size: 20px;
+    padding-right: 5.5em;
+    text-decoration: none;
+    color: white;
+}
+
+
+.inicial-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.tittle {
+    padding-top: 2em;
+    color: #844EF4;
+    font-size: 95px;
+}
+
+.one-p {
+    
+    font-size: 22px;
+}
+
+.img {
+    padding-top: 9em;
+}
+
+.btn {
+    width: 15rem;
+    height: 6.3rem;
+    border-radius: 38px;
+    color: white;
+    background-color: #844EF4;
+    border-style: none;
+    font-size: 22px;
+}
+
+.inicial-page {
+    border-bottom: #844EF4 solid 1px; 
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 11em;
+}
+
+.sec-page h1 {
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    color: #844EF4;
+}
+
+.sec-page p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.intro{
+    margin: 0px 900px 0px 900px;
+}
+
+.sec-page {
+    border-bottom: #844EF4 solid 1px;
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 11em;
+}
+
+.ter-page h1{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    font-size: 60px;
+    color: #844EF4;
+}
+
+.todas {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    font-size: 22px;
+    text-align: center;
+    background-color: #455A64;
+    border-radius: 34px;
+    width: 38rem;
+    
+}
+
+.para {
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 2em;
+}
+
+.cd-va{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card-Valores{
+    font-size: 22px;
+    margin: 2.5em;
+    background-color: #455A64;
+    border-radius: 34px;
+    width: 38rem;
+}
+
+.ter-page {
+    border-bottom: #844EF4 solid 1px;
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 11em;
+}
+
+.autores h1 {
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 60px;
+    color: #844EF4;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-a {
+    text-align: center;
+    background-color: #455A64;
+    border-radius: 34px;
+    width: 18rem;
+    height: 26rem;
+    font-weight:600;
+    font-size: 25px;
+    padding-top: 1em;
+    
+
+}
+
+.autores {
+    padding-top: 4em;
+    border-bottom: #844EF4 solid 1px;
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 11em;
+}
+
+footer {
+    font-size: 20px;
+    padding-top: 1em;
+    
+}
+
+.rodape {
+    background-color: #455A64;
+    margin: 0px 70px 0px 70px;
+    
+    
+}
+
+.right {
+    padding-left: 40em;
+    padding-bottom: 1em;
+}
+
+.extras {
+    display: flex;
+    padding-top: 3em;
+    border-bottom: #ffffff solid 1px;
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 1em;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #455A64;
+    margin: 0px 70px 0px 70px;
+}
+
+.links-a {  
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.sob {
+    color: white;
+    text-decoration: none;
+    padding-right: 4em;
+}
+
+.aut {
+    color: white;
+    text-decoration: none;
+}
