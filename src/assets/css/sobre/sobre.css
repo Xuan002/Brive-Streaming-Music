@@ -157,7 +157,13 @@ body {
     font-weight:600;
     font-size: 25px;
     padding-top: 1em;
-    
+
+}
+
+.perfil {
+   border-radius: 500px;
+    gap: 20px;
+    width: 12rem;
 
 }
 
