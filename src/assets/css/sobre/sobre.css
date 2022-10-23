@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 
+
 body {
     background-color: #17171A;
     margin: 0;
@@ -12,12 +13,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 5rem;
+    height: 4rem;
     
 }
 
 .top-bar a {
-    font-size: 20px;
+    font-size: 16px;
     padding-right: 5.5em;
     text-decoration: none;
     color: white;
@@ -34,12 +35,12 @@ body {
 .tittle {
     padding-top: 2em;
     color: #844EF4;
-    font-size: 95px;
+    font-size: 69px;
 }
 
 .one-p {
     
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .img {
@@ -47,13 +48,13 @@ body {
 }
 
 .btn {
-    width: 15rem;
-    height: 6.3rem;
-    border-radius: 38px;
+    width: 12rem;
+    height: 5.4rem;
+    border-radius: 40px;
     color: white;
     background-color: #844EF4;
     border-style: none;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .inicial-page {
@@ -63,7 +64,7 @@ body {
 }
 
 .sec-page h1 {
-    font-size: 60px;
+    font-size: 45px;
     align-items: center;
     text-align: center;
     padding-bottom: 1em;
@@ -72,12 +73,12 @@ body {
 }
 
 .sec-page p {
-    font-size: 22px;
+    font-size: 19px;
     text-align: center;
 }
 
 .intro{
-    margin: 0px 900px 0px 900px;
+    margin: 0px 420px 0px 420px;
 }
 
 .sec-page {
@@ -90,7 +91,7 @@ body {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     color: #844EF4;
 }
 
@@ -101,7 +102,7 @@ body {
 }
 
 .card {
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
     background-color: #455A64;
     border-radius: 34px;
@@ -122,7 +123,7 @@ body {
 }
 
 .card-Valores{
-    font-size: 22px;
+    font-size: 16px;
     margin: 2.5em;
     background-color: #455A64;
     border-radius: 34px;
@@ -138,7 +139,7 @@ body {
 .autores h1 {
     padding-bottom: 1em;
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     color: #844EF4;
 }
 
@@ -152,10 +153,10 @@ body {
     text-align: center;
     background-color: #455A64;
     border-radius: 34px;
-    width: 18rem;
-    height: 26rem;
+    width: 12rem;
+    height: 20rem;
     font-weight:600;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 1em;
 
 }
@@ -163,7 +164,7 @@ body {
 .perfil {
    border-radius: 500px;
     gap: 20px;
-    width: 12rem;
+    width: 6rem;
 
 }
 
@@ -175,7 +176,7 @@ body {
 }
 
 footer {
-    font-size: 20px;
+    font-size: 13px;
     padding-top: 1em;
     
 }
