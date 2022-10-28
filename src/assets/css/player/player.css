@@ -16,7 +16,7 @@
 # Container
 ____________________________________________________________*/
 .container {
-  background-color: 212124;
+  background-color: #212124;
   
 }
 
@@ -25,8 +25,8 @@ ____________________________________________________________*/
 ____________________________________________________________*/
 .player {
   position: absolute;
-  top: 52%;
-  left: 87%;
+  top: 32rem;
+  left: 102rem;
   width: 400px;
   height: 800px;
   transform: translate(-50%, -50%);
@@ -118,12 +118,12 @@ ____________________________________________________________*/
 
 .album {
   position: absolute;
-  top: 76px;
-  left: 50%;
+  top: 2rem;
+  left: 11.7rem;
   transform: translateX(-50%);
   display: inline-block;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   border-radius: 18px;
   text-align: center;
 }

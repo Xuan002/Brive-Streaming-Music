@@ -7,16 +7,20 @@ body{
     top: 0px;
     
     background-color: #212124;
-    width: 17%;
-    height: 100vw;
-    max-height: 1060px;
+    width: 20rem;
+    height: 100rem;
+    
 }
 
 .nav-direita-logo{
     width: 138px;
-    margin-top: 35px;
+    margin-top: 45px;
     margin-left: 42px;
     
+}
+
+.nav-direita-menuContainer{
+    margin-top: 2em;
 }
 
 .nav-direita-menu-texto{
@@ -24,7 +28,7 @@ body{
     width: 59px;
     height: 22px;
     margin-left: 42px;
-    margin-top: 38px;
+    margin-top: 30px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -43,6 +47,7 @@ body{
 
     padding: 20px;
     padding-left: 84px;
+    padding-top: 1.5em;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -62,6 +67,7 @@ body{
 
     width: 16px;
     height: 16px;
+    
 
     margin-left: 82px;
 }
@@ -71,9 +77,11 @@ body{
     position: absolute;
     top: 158px;
     left: 42px;
-    width: 16px;
+    width: 19px;
     gap: 46px;
+    padding-top: 0.3em;
     flex-direction: column;
+    
 }
 
 
@@ -90,3 +98,5 @@ body{
 .nav-direita-outros .bar-principal-icons{
     top: 46px;
 }
+
+
