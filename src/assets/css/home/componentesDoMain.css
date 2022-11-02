@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
 .componentes_main {
     display: flex;
-    width: 100vw;
     flex-direction: column;
-    
 
 }
 

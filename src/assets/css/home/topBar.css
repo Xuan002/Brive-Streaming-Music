@@ -2,12 +2,12 @@
 
 .cabecalho{
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-  padding-left: 18.8rem;
-  width: 100vw;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 2.5em;
+  margin: 0px 8rem 0px 26rem;
+  
   
     
 }

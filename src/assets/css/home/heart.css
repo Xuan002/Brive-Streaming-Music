@@ -20,8 +20,8 @@
    }
    
    .intHeart:checked + .lbHeart svg {
-    fill: hsl(0deg 100% 50%);
-    stroke: hsl(0deg 100% 50%);
+    fill: hsl(260, 88%, 63%);
+    stroke: hsl(260, 88%, 63%);
     animation: heartButton 1s;
    }
    

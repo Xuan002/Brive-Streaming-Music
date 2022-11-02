@@ -1,23 +1,17 @@
 .main-playlist{
     width: 55rem;
     margin-left: 26rem;
-    height: 50vw;
-}
-.texto-historico{
-    text-align: center;
-    margin-top: 1rem;
-    margin-left: 25rem;
-    color: #844EF4;
-    font-family: 'Montserrat';
-    font-style: normal;
+    height: 50rem;
 }
 
 .main-playlist-textPrincipal{
-    padding: 5%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 2em;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 22px;
     
     text-transform: uppercase;
@@ -57,7 +51,7 @@
 }
 
 .img-playlist{
-    width: 9em;
+    width: 11rem;
     border-radius: 20px; 
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -79,8 +73,6 @@
         text-align: center;
         margin-top: 2em;
         margin-right: 60rem;
-        color: #844EF4;
-        font-family: 'Montserrat';
-        font-style: normal;
+
     }
 }
