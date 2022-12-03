@@ -17,7 +17,7 @@ btnLogar.addEventListener("click", event => {
     if (intUser.value != "" & intPass.value != "")
     {
         login(url,user)
-        window.location.href = '/src/assets/routes/home.html'
+        
     }
     
 })
@@ -26,7 +26,7 @@ function login(url,user) {
     axios.post(url, user)
     .then((result) => {
         alert(JSON.stringify(result.data))
-        validou = true
+        window.location.href = '/src/assets/routes/home.html'
     }).catch((error) => {
         console.log(error);
     });
