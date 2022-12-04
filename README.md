@@ -13,10 +13,10 @@ Para acessar o projeto na web
 
 ## Funcionalidades
 
-- Temas dark e light
-- Preview em tempo real
-- Modo tela cheia
-- Multiplataforma
+- Player de musica
+- Historico de musicas
+- Banco de dados
+- Multiplataforma (em breve)
 
 
 ## Demonstração
